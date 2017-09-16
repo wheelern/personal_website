@@ -223,51 +223,24 @@
       <div id="section-r-markdown" class="section level2">
 <h2>R Markdown</h2>
 <p>This is a test table, in preparation for Paul’s table.</p>
-
-<script type="application/shiny-prerendered" data-context="server-start">
-knitr::opts_chunk$set(echo = TRUE)
-</script>
- 
-<script type="application/shiny-prerendered" data-context="server">
-
-library(DT)
-library(shiny)
-library(tidyverse)
-
-df <- read.csv("~/Box Sync/GitHub/airs_table/data.csv", header = TRUE) %>%
-  select(-X.1, -X.2)
-
-shinyApp(
-  
-  ui <- fluidPage(
-  title = 'Use the DT package in shiny',
-  h1('A Table Using Client-side Processing'),
-  fluidRow(
-    column(2),
-    column(8, DT::dataTableOutput('tbl_a')),
-    column(2)
-  )#,
-  # h1('A Table Using Server-side Processing'),
-  # fluidRow(
-  #   column(2),
-  #   column(8, DT::dataTableOutput('tbl_b')),
-  #   column(2)
-  # )
-  ),
-  
- server <- function(input, output, session) {
-  output$tbl_a = DT::renderDataTable(df, server = FALSE)
-  output$tbl_b = DT::renderDataTable(df)
-},
-  
-  options = list(height = 500)
-)
-</script>
- <!--html_preserve-->
-<script type="application/shiny-prerendered" data-context="dependencies">
-{"type":"list","attributes":{},"value":[]}
-</script>
-<!--/html_preserve-->
+<pre><code>## Loading required package: DT</code></pre>
+<pre><code>## Loading required package: shiny</code></pre>
+<pre><code>## 
+## Attaching package: &#39;shiny&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:DT&#39;:
+## 
+##     dataTableOutput, renderDataTable</code></pre>
+<pre><code>## Loading required package: tidyverse</code></pre>
+<pre><code>## Loading tidyverse: ggplot2
+## Loading tidyverse: tibble
+## Loading tidyverse: tidyr
+## Loading tidyverse: readr
+## Loading tidyverse: purrr
+## Loading tidyverse: dplyr</code></pre>
+<pre><code>## Conflicts with tidy packages ----------------------------------------------</code></pre>
+<pre><code>## filter(): dplyr, stats
+## lag():    dplyr, stats</code></pre>
+<iframe data-deferred-src="appd21ff35fb72de8797bb6ba30c65371a1/?w=&amp;__subapp__=1" width="100%" height="500" class="shiny-frame shiny-frame-deferred"></iframe>
 </div>
 
       

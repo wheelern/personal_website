@@ -5,7 +5,7 @@ date: 2017-09-15T21:13:14-05:00
 categories: ["R"]
 tags: ["R Markdown", "plot", "regression"]
 output: html_document
-runtime: shiny_prerendered
+runtime: shiny
 ---
 
 ```{r setup, include=FALSE}
@@ -18,9 +18,9 @@ This is a test table, in preparation for Paul's table.
 
 ```{r, echo = FALSE, context="server"}
 
-library(DT)
-library(shiny)
-library(tidyverse)
+require(DT)
+require(shiny)
+require(tidyverse)
 
 df <- read.csv("~/Box Sync/GitHub/airs_table/data.csv", header = TRUE) %>%
   select(-X.1, -X.2)
