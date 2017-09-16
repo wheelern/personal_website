@@ -16,24 +16,54 @@
       <pubDate>Fri, 15 Sep 2017 21:13:14 -0500</pubDate>
       
       <guid>/post/table/</guid>
-      <description>&lt;div id=&#34;r-markdown&#34; class=&#34;section level2&#34;&gt;
+      <description>&lt;div id=&#34;section-r-markdown&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;R Markdown&lt;/h2&gt;
 &lt;p&gt;This is a test table, in preparation for Paul’s table.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;## 
-## Attaching package: &amp;#39;shiny&amp;#39;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## The following objects are masked from &amp;#39;package:DT&amp;#39;:
-## 
-##     dataTableOutput, renderDataTable&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Loading tidyverse: ggplot2
-## Loading tidyverse: tibble
-## Loading tidyverse: tidyr
-## Loading tidyverse: readr
-## Loading tidyverse: purrr
-## Loading tidyverse: dplyr&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Conflicts with tidy packages ----------------------------------------------&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## filter(): dplyr, stats
-## lag():    dplyr, stats&lt;/code&gt;&lt;/pre&gt;
-&lt;div style=&#34;width: 100% ; height: 500px ; text-align: center; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;&#34; class=&#34;muted well&#34;&gt;Shiny applications not supported in static R Markdown documents&lt;/div&gt;
+
+&lt;script type=&#34;application/shiny-prerendered&#34; data-context=&#34;server-start&#34;&gt;
+knitr::opts_chunk$set(echo = TRUE)
+&lt;/script&gt;
+ 
+&lt;script type=&#34;application/shiny-prerendered&#34; data-context=&#34;server&#34;&gt;
+
+library(DT)
+library(shiny)
+library(tidyverse)
+
+df &lt;- read.csv(&#34;~/Box Sync/GitHub/airs_table/data.csv&#34;, header = TRUE) %&gt;%
+  select(-X.1, -X.2)
+
+shinyApp(
+  
+  ui &lt;- fluidPage(
+  title = &#39;Use the DT package in shiny&#39;,
+  h1(&#39;A Table Using Client-side Processing&#39;),
+  fluidRow(
+    column(2),
+    column(8, DT::dataTableOutput(&#39;tbl_a&#39;)),
+    column(2)
+  )#,
+  # h1(&#39;A Table Using Server-side Processing&#39;),
+  # fluidRow(
+  #   column(2),
+  #   column(8, DT::dataTableOutput(&#39;tbl_b&#39;)),
+  #   column(2)
+  # )
+  ),
+  
+ server &lt;- function(input, output, session) {
+  output$tbl_a = DT::renderDataTable(df, server = FALSE)
+  output$tbl_b = DT::renderDataTable(df)
+},
+  
+  options = list(height = 500)
+)
+&lt;/script&gt;
+ &lt;!--html_preserve--&gt;
+&lt;script type=&#34;application/shiny-prerendered&#34; data-context=&#34;dependencies&#34;&gt;
+{&#34;type&#34;:&#34;list&#34;,&#34;attributes&#34;:{},&#34;value&#34;:[]}
+&lt;/script&gt;
+&lt;!--/html_preserve--&gt;
 &lt;/div&gt;
 </description>
     </item>
