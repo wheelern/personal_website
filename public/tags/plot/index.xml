@@ -7,8 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Nic Wheeler</copyright>
-    <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 15 Sep 2017 21:13:14 -0500</lastBuildDate>
     <atom:link href="/tags/plot/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Test Table</title>
+      <link>/post/table/</link>
+      <pubDate>Fri, 15 Sep 2017 21:13:14 -0500</pubDate>
+      
+      <guid>/post/table/</guid>
+      <description>&lt;div id=&#34;r-markdown&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;R Markdown&lt;/h2&gt;
+&lt;p&gt;This is a test table, in preparation for Paul’s table.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Attaching package: &amp;#39;shiny&amp;#39;&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## The following objects are masked from &amp;#39;package:DT&amp;#39;:
+## 
+##     dataTableOutput, renderDataTable&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Loading tidyverse: ggplot2
+## Loading tidyverse: tibble
+## Loading tidyverse: tidyr
+## Loading tidyverse: readr
+## Loading tidyverse: purrr
+## Loading tidyverse: dplyr&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Conflicts with tidy packages ----------------------------------------------&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## filter(): dplyr, stats
+## lag():    dplyr, stats&lt;/code&gt;&lt;/pre&gt;
+&lt;div style=&#34;width: 100% ; height: 500px ; text-align: center; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;&#34; class=&#34;muted well&#34;&gt;Shiny applications not supported in static R Markdown documents&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Hello R Markdown</title>
