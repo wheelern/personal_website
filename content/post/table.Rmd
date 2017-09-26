@@ -28,18 +28,18 @@ require(tidyverse)
 # df <- read.csv("../../data/data.csv", header = TRUE) %>%
 #   select(-X.1, -X.2)
 
-shinyApp(
-  ui = fluidPage(
-    fluidRow(
-      column(12,
-             DT::dataTableOutput('table')
-      )
-    )
-  ),
-  server = function(input, output) {
-    output$table <- DT::renderDataTable(iris)
-  }
-)
+ shinyApp(
+   ui = fluidPage(
+     fluidRow(
+       column(12,
+              DT::dataTableOutput('table')
+       )
+     )
+   ),
+   server = function(input, output) {
+     output$table <- DT::renderDataTable(iris)
+   }
+ )
 ```
 
 
