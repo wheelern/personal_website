@@ -2,8 +2,8 @@
 title: "Test Table"
 author: "Nic Wheeler"
 date: 2017-09-15T21:13:14-05:00
-categories: ["R"]
-tags: ["R Markdown", "plot", "regression"]
+# categories: ["R"]
+# tags: ["R Markdown", "plot", "regression"]
 output: html_document
 runtime: shiny
 ---
@@ -16,34 +16,30 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This is a test table, in preparation for Paul's table.
 
-```{r, echo = FALSE, context = "server"}
+```{r, echo = FALSE}
 
-require(DT)
+
 require(shiny)
+require(DT)
 require(tidyverse)
 
-df <- read.csv("~/Box Sync/GitHub/airs_table/data.csv", header = TRUE) %>%
-  select(-X.1, -X.2)
+# DT::datatable(iris)
 
-datatable(df)
+# df <- read.csv("../../data/data.csv", header = TRUE) %>%
+#   select(-X.1, -X.2)
 
-# shinyApp(
-#   
-#   ui <- fluidPage(
-#   h1('A Table Using Server-side Processing'),
-#   fluidRow(
-#     column(2),
-#     column(8, DT::dataTableOutput('tbl_A')),
-#     column(2)
-#   )
-#   ),
-#   
-#  server <- function(input, output, session) {
-#   output$tbl_a = DT::renderDataTable(df)
-# }#,
-#   
-#  # options = list(height = 500)
-# )
+shinyApp(
+  ui = fluidPage(
+    fluidRow(
+      column(12,
+             DT::dataTableOutput('table')
+      )
+    )
+  ),
+  server = function(input, output) {
+    output$table <- DT::renderDataTable(iris)
+  }
+)
 ```
 
 
