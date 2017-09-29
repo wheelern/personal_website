@@ -16,28 +16,7 @@
       <pubDate>Fri, 15 Sep 2017 21:13:14 -0500</pubDate>
       
       <guid>/post/table/</guid>
-      <description>&lt;div id=&#34;section-r-markdown&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;R Markdown&lt;/h2&gt;
-&lt;p&gt;This is a test table, in preparation for Paul’s table.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;## Loading required package: shiny&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Loading required package: DT&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
-## Attaching package: &amp;#39;DT&amp;#39;&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## The following objects are masked from &amp;#39;package:shiny&amp;#39;:
-## 
-##     dataTableOutput, renderDataTable&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Loading required package: tidyverse&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Loading tidyverse: ggplot2
-## Loading tidyverse: tibble
-## Loading tidyverse: tidyr
-## Loading tidyverse: readr
-## Loading tidyverse: purrr
-## Loading tidyverse: dplyr&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## Conflicts with tidy packages ----------------------------------------------&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## filter(): dplyr, stats
-## lag():    dplyr, stats&lt;/code&gt;&lt;/pre&gt;
-&lt;iframe data-deferred-src=&#34;app04496e1d42afed353b6e50e38085b2fe/?w=&amp;amp;__subapp__=1&#34; width=&#34;100%&#34; height=&#34;400&#34; class=&#34;shiny-frame shiny-frame-deferred&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+      <description>&lt;iframe src=&#34;https://wheelern.shinyapps.io/shiny_table/&#34;&gt;
 </description>
     </item>
     

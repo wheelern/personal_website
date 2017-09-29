@@ -1,0 +1,10 @@
+name: table
+title:
+username:
+account: wheelern
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 220400
+bundleId: 1003909
+url: https://wheelern.shinyapps.io/table/
+when: 1506711325.81121
