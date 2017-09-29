@@ -22,7 +22,7 @@ url_project = "project/genomics/"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "p&v.pdf"
+image = "p&v.jpeg"
 caption = "My caption :smile:"
 
 +++
