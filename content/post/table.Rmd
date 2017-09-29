@@ -8,4 +8,4 @@ output: html_document
 runtime: shiny
 ---
 
-<iframe src="https://wheelern.shinyapps.io/shiny_table/" width="900" height="780">
+<iframe src="https://wheelern.shinyapps.io/shiny_table/" width="900" height="780" style="border: none;">
