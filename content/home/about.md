@@ -1,7 +1,7 @@
 +++
 # About/Biography widget.
 
-date = "2016-04-20T00:00:00"
+date = "2017-09-29"
 draft = false
 
 widget = "about"
@@ -24,11 +24,6 @@ weight = 1
   institution = "Iowa State University"
   year = 2017
 
-# [[education.courses]]
-#   course = "MEng in Artificial Intelligence"
-#   institution = "Massachusetts Institute of Technology"
-#   year = 2009
-
 [[education.courses]]
   course = "BSc in Molecular Biology"
   institution = "William Jewell College"
@@ -38,6 +33,8 @@ weight = 1
 
 # Biography
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Nic Wheeler is a post-doctoral fellow at the University of Wisconsin-Madison, in collaboration with Merck KGga in Darmstadt, Germany. He received his PhD in Genetics and Genomics from Iowa State University, under the advising of Dr. Tim A. Day.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Nic's research involves several species of helminth parasites of both the flatworm and nematode phyla. He is primarily interested in genomics as a method for identifying, prioritizing, and annotating drug targets. His research is powered by a variety of cutting-edge techniques in next-generation sequencing, computational biology, genome editing, which are complemented by classic genetic techniques in both parasites and related model organisms.
+
+This website includes a link to Nic's current CV, but it can also be used as a digital (and more aestethically pleasing) replacement. It includes a list of selected publications, a few blog posts, a description of ongoing projects (including some interactive preliminary data), a sample of past teaching, and relevant contact information.

@@ -5,6 +5,6 @@ account: wheelern
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 220404
-bundleId: 1003921
+bundleId: 1003954
 url: https://wheelern.shinyapps.io/shiny_table/
-when: 1506711672.35579
+when: 1506713189.38628

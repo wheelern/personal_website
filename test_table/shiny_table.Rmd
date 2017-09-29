@@ -1,19 +1,16 @@
 ---
-title: "Test Table"
-author: "Nic Wheeler"
-date: 2017-09-15T21:13:14-05:00
+# title: "Test Table"
+# author: "Nic Wheeler"
+# date: 2017-09-15T21:13:14-05:00
 # categories: ["R"]
 # tags: ["R Markdown", "plot", "regression"]
 output: html_document
 runtime: shiny
 ---
   
-  ```{r setup, include=FALSE}
+```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
-
-## R Markdown
-
 This is a test table, in preparation for Paul's table.
 
 ```{r, echo = FALSE, message=FALSE}
