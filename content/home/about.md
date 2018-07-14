@@ -31,10 +31,12 @@ weight = 1
  
 +++
 
-# Biography
+# Biography and Research Interests
 
-Nic Wheeler is a post-doctoral fellow at the University of Wisconsin-Madison, in collaboration with Merck KGga in Darmstadt, Germany. He received his PhD in Genetics and Genomics from Iowa State University, under the advising of Dr. Tim A. Day.
+I am a post-doctoral fellow with Merck KGaA, performing research in the [Yoshino](https://www.vetmed.wisc.edu/people/yoshinot/) and [Zamanian](http://www.zamanianlab.org/) labs at the University of Wisconsin-Madison. I received my PhD in Genetics and Genomics from Iowa State University, where I was advised by [Tim Day](https://vetmed.iastate.edu/users/day).
 
-Nic's research involves several species of helminth parasites of both the flatworm and nematode phyla. He is primarily interested in genomics as a method for identifying, prioritizing, and annotating drug targets. His research is powered by a variety of cutting-edge techniques in next-generation sequencing, computational biology, genome editing, which are complemented by classic genetic techniques in both parasites and related model organisms.
+My research focuses on several species of flatworm (*Schistosoma maonsoni*) and nematode (*Brugia malayi*) parasites and their respective molluscan (*Biomphalaria glabrata*) and mosquito (*Aedes aegypti*) vectors. These worms infect hundreds of millions of people around the world, particularly at-risk peoples in the developing world, where they cause untold morbidity and mortality. I am interested in using genomics as a method for identifying, prioritizing, and annotating drug targets, and then using other techniques to more deeply study targets of interest. Specifically, I am interested in receptors such as G protein-coupled receptors and ion channels, which are classically prioritized as putative targets in helminth research. My research uses a number of cutting-edge techniques, including next-generation sequencing (both short read and long read), RNA interference, comparative genomics, computer vision, and microfluidics.
 
-This website includes a link to Nic's current CV, but it can also be used as a digital (and more aestethically pleasing) replacement. It includes a list of selected publications, a few blog posts, a description of ongoing projects (including some interactive preliminary data), a sample of past teaching, and relevant contact information.
+Currently, my main research aim is to develop stable transgenesis in *B. glabrata*, a vector for *S. mansoni*, and its associated immortalized cell line, Bge. A reproducbile technique for transgenesis in this organism will not only open new research opportunities, but it will enable the consideration of new vector control approaches that utilize gene drives.
+
+This website includes a link to my current CV, but it can also be used as a digital (and more aestethically pleasing) replacement. It includes a list of selected publications, a description of ongoing projects, a sample of past teaching, and relevant contact information.
