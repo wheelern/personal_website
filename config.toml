@@ -22,7 +22,7 @@ defaultContentLanguageInSubdir = false
 [params]
   name = "Nicolas J. Wheeler"
   role = "Post Doctoral Fellow"
-  organization = "University of Wisconsin-Madison & Merck KGaA"
+  organization = "Merck KGaA & University of Wisconsin-Madison"
   organization_url = ""
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
