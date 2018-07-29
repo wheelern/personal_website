@@ -1,4 +1,4 @@
-publishDir: "../wheelern.github.io"
+# publishDir: "../wheelern.github.io"
 baseurl = "/"  # End your URL with a `/` trailing slash.
 title = "Nicolas J. Wheeler"
 copyright = "&copy; 2018 Nic Wheeler"
