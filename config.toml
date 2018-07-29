@@ -162,7 +162,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Publications"
-  url = "#selected_publications"
+  url = "#publications_selected"
   weight = 3
 
 [[menu.main]]
