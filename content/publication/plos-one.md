@@ -22,7 +22,7 @@ url_project = "project/GPCRs/"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/Zamanian2012.tif"
+image = "headers/Zamanian2012.jpg"
 # caption = "My caption :smile:"
 
 +++

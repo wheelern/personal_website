@@ -1,5 +1,5 @@
 baseurl = "/"  # End your URL with a `/` trailing slash.
-title = "Academic"
+title = "Nicolas J. Wheeler"
 copyright = "&copy; 2018 Nic Wheeler"
 theme = "hugo-academic"
 enableEmoji = true
@@ -162,12 +162,12 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Publications"
-  url = "#publications_selected"
+  url = "#selected_publications"
   weight = 3
 
 [[menu.main]]
   name = "Presentations"
-  url = "#presentations"
+  url = "#talks"
   weight = 4
 
 [[menu.main]]
