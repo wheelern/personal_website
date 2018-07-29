@@ -9,7 +9,7 @@ title = "Deep Learning"
 summary = "A collaboration between the Merck KGaA Global Health Institute and the University of Wisconsin-Madison."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "merck.jpg"
+image_preview = "merck.png"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
