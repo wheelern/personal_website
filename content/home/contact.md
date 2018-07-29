@@ -13,6 +13,6 @@ weight = 70
 
 # Automatically link email and phone?
 autolink = true
-email = "nicolas.j.wheeler@gmail.com"
+email = "njwheeler@wisc.edu"
 +++
 

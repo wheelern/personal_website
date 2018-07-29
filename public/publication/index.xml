@@ -6,11 +6,21 @@
     <description>Recent content in Publications on Academic</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2016 Nic Wheeler</copyright>
+    <copyright>&amp;copy; 2018 Nic Wheeler</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
-	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Tissue-specific transcriptome analyses provide new insights into GPCR signalling in adult Schistosoma mansoni</title>
+      <link>/publication/hahnel2018/</link>
+      <pubDate>Thu, 18 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/hahnel2018/</guid>
+      <description>
+
+&lt;h1 id=&#34;more-detail-can-easily-be-written-here-using-markdown-and-rm-latex-math-code&#34;&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/h1&gt;
+</description>
+    </item>
     
     <item>
       <title>Comparative genomics of the major parasitic worms</title>
@@ -18,7 +28,10 @@
       <pubDate>Wed, 20 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/publication/coghlan2018/</guid>
-      <description> More detail can easily be written here using Markdown and $\rm \LaTeX$ math code. </description>
+      <description>
+
+&lt;h1 id=&#34;more-detail-can-easily-be-written-here-using-markdown-and-rm-latex-math-code&#34;&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/h1&gt;
+</description>
     </item>
     
     <item>
@@ -36,16 +49,10 @@
       <pubDate>Wed, 18 Jul 2012 00:00:00 +0000</pubDate>
       
       <guid>/publication/plos-one/</guid>
-      <description> More detail can easily be written here using Markdown and $\rm \LaTeX$ math code. </description>
-    </item>
-    
-    <item>
-      <title>Tissue-specific transcriptome analyses provide new insights into GPCR signalling in adult Schistosoma mansoni</title>
-      <link>/publication/hahnel2018/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/hahnel2018/</guid>
-      <description> More detail can easily be written here using Markdown and $\rm \LaTeX$ math code. </description>
+      <description>
+
+&lt;h1 id=&#34;more-detail-can-easily-be-written-here-using-markdown-and-rm-latex-math-code&#34;&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/h1&gt;
+</description>
     </item>
     
   </channel>

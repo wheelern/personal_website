@@ -4,10 +4,10 @@ authors = ["Nicolas J. Wheeler", "Prince N. Agbedanu", "Michael J. Kimber", "Pau
 date = "2015-01-20"
 image_preview = ""
 math = true
-publication_types = ["2"]
+publication_types = ["1"]
 publication = "Parasites & Vectors"
 #publication_short = "In *ICMEW*"
-selected = true
+selected = false
 title = "Functional analysis of Girardia tigrina transcriptome seeds pipeline for anthelmintic target discovery."
 # url_code = "#"
 # url_dataset = "#"
@@ -22,7 +22,7 @@ url_project = "project/genomics/"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "p&v.jpeg"
-caption = "My caption :smile:"
+image = "headers/Wheeler2015.jpg"
+# caption = "My caption :smile:"
 
 +++

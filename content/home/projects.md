@@ -26,12 +26,16 @@ view = 1
   tag = "*"
   
 [[filter]]
-  name = "Deep Learning"
-  tag = ".deep-learning"
+  name = "Snail Transgenesis"
+  tag = ".snail-transgenesis"
+  
+[[filter]]
+  name = "GPCRs"
+  tag = ".gpcr"
 
 [[filter]]
-  name = "Other"
-  tag = ".demo"
-
+  name = "Chemosensation"
+  tag = ".chemosensation"
+  
 +++
 

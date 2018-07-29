@@ -4,10 +4,10 @@ authors = ["Mostafa Zamanian", "Prince N. Agbedanu", "Nicolas J. Wheeler", "Paul
 date = "2012-07-18"
 image_preview = ""
 math = true
-publication_types = ["2"]
+publication_types = ["1"]
 publication = "PLoS One"
 #publication_short = "In *ICMEW*"
-selected = true
+selected = false
 title = "Novel RNAi-mediated approach to G protein-coupled receptor deorphanization: proof of principle and characterization of a planarian 5-HT receptor."
 # url_code = "#"
 # url_dataset = "#"
@@ -22,8 +22,8 @@ url_project = "project/GPCRs/"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/bubbles-wide.jpg"
-caption = "My caption :smile:"
+image = "headers/Zamanian2012.tif"
+# caption = "My caption :smile:"
 
 +++
 

@@ -4,7 +4,7 @@ authors = ["International Helminth Genomes Consortium"]
 date = "2017-12-20"
 image_preview = ""
 math = true
-publication_types = ["2"]
+publication_types = ["1"]
 publication = "bioRxiv"
 selected = true
 title = "Comparative genomics of the major parasitic worms"
@@ -21,8 +21,8 @@ url_project = "project/GPCRs/"
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/bubbles-wide.jpg"
-caption = "My caption :smile:"
+image = "headers/Coghlan2018.tif"
+# caption = "My caption :smile:"
 
 +++
 

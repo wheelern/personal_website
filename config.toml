@@ -1,6 +1,6 @@
 baseurl = "/"  # End your URL with a `/` trailing slash.
 title = "Academic"
-copyright = "&copy; 2016 Nic Wheeler"
+copyright = "&copy; 2018 Nic Wheeler"
 theme = "hugo-academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -25,10 +25,10 @@ defaultContentLanguageInSubdir = false
   organization = "Merck KGaA & University of Wisconsin-Madison"
   organization_url = ""
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "IMG_0733.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "njwheeler@wisc.edu"
   address = "Hanson Building, 1656 Linden Dr., Room 327, University of Wisconsin-Madison, Madison, Wisconsin, 53713, USA"
-  office_hours = "Monday 10:00 to 13:00 or email for appointment"
+  # office_hours = "Monday 10:00 to 13:00 or email for appointment"
   phone = "515 291 1430"
   skype = ""
   telegram = ""
@@ -98,12 +98,11 @@ defaultContentLanguageInSubdir = false
   #   For multi-lingual sites, copy this block to each language section at the end of this file.
   publication_types = [
     'Uncategorized',  # 0
-    'Conference proceedings',  # 1
-    'Journal',  # 2
-    'Work in progress',  # 3
-    'Technical report',  # 4
-    'Book',  # 5
-    'Book chapter'  # 6
+    'Journal',  # 1
+    'Oral Presentation',  # 2
+    'Poster', #3
+    'Work in progress',  # 4
+    'Book chapter'  # 5
   ]
 
   # Social/Academic Networking
@@ -132,12 +131,12 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "twitter"
     icon_pack = "fa"
-    link = "//twitter.com/NicNotNick"
+    link = "//twitter.com/wheeler_worm"
 
   [[params.social]]
     icon = "google-scholar"
     icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
+    link = "https://scholar.google.com/citations?user=GTUkYg0AAAAJ&hl=en"
 
   [[params.social]]
     icon = "github"
@@ -167,8 +166,8 @@ defaultContentLanguageInSubdir = false
   weight = 3
 
 [[menu.main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Presentations"
+  url = "#presentations"
   weight = 4
 
 [[menu.main]]
