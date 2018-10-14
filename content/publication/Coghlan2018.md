@@ -1,7 +1,7 @@
 +++
 abstract = "Parasitic nematodes (roundworms) and platyhelminths (flatworms) cause debilitating chronic infections of humans and animals, decimate crop production and are a major impediment to socioeconomic development. Here we compare the genomes of 81 nematode and platyhelminth species, including those of 76 parasites. From 1.4 million genes, we identify gene family births and hundreds of large expanded gene families at key nodes in the phylogeny that are relevant to parasitism. Examples include gene families that modulate host immune responses, enable parasite migration though host tissues or allow the parasite to feed. We use a wide-ranging in silico screen to identify and prioritise new potential drug targets and compounds for testing. We also uncover lineage-specific differences in core metabolism and in protein families historically targeted for drug development. This is the broadest comparative study to date of the genomes of parasitic and non-parasitic worms. It provides a transformative new resource for the research community to understand and combat the diseases that parasitic worms cause."
 authors = ["International Helminth Genomes Consortium"]
-date = "2017-12-20"
+date = "2018-10-14"
 image_preview = ""
 math = true
 publication_types = ["1"]
