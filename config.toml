@@ -142,7 +142,12 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/wheelern"
+    link = "https://github.com/wheelern/"
+    
+     [[params.social]]
+    icon = "orcid"
+    icon_pack = "ai"
+    link = "https://orcid.org/0000-0002-5909-4190"
 
 
 # Navigation Links
@@ -157,7 +162,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "CV"
-  url = "#vitae"
+  url = "#vitae.pdf"
   weight = 2
 
 
