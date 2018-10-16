@@ -162,7 +162,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "CV"
-  url = "#vitae.pdf"
+  url = "#../../static/img/cv.pdf"
   weight = 2
 
 
@@ -181,10 +181,10 @@ defaultContentLanguageInSubdir = false
   url = "#projects"
   weight = 5
 
-[[menu.main]]
-  name = "Teaching"
-  url = "#teaching"
-  weight = 6
+# [[menu.main]]
+#  name = "Teaching"
+#  url = "#teaching"
+#  weight = 6
 
 [[menu.main]]
   name = "Contact"
