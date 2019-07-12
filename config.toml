@@ -99,11 +99,10 @@ defaultContentLanguageInSubdir = false
   #   For multi-lingual sites, copy this block to each language section at the end of this file.
   publication_types = [
     'Uncategorized',  # 0
-    'Journal',  # 1
-    'Oral Presentation',  # 2
-    'Poster', #3
-    'Work in progress',  # 4
-    'Book chapter'  # 5
+    'Journals',  # 1
+    'Oral Presentations',  # 2
+    'Posters', #3
+    'Pre-Prints'  # 4
   ]
 
   # Social/Academic Networking
@@ -143,7 +142,7 @@ defaultContentLanguageInSubdir = false
     icon = "github"
     icon_pack = "fa"
     link = "https://github.com/wheelern/"
-    
+
      [[params.social]]
     icon = "orcid"
     icon_pack = "ai"

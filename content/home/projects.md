@@ -29,12 +29,16 @@ view = 1
   name = "Snail Transgenesis"
   tag = ".snail_transgenesis"
   
-# [[filter]]
-#   name = "GPCRs"
-#   tag = ".gpcr"
-# 
-# [[filter]]
-#   name = "Chemosensation"
-#   tag = ".chemosensation"
-#   
+[[filter]]
+  name = "GPCRs"
+  tag = ".gpcr"
+
+[[filter]]
+  name = "Chemosensation"
+  tag = ".chemosensation"
+  
+[[filter]]
+  name = "Sequencing"
+  tag = ".sequencing"
+
 +++
