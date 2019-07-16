@@ -100,9 +100,7 @@ defaultContentLanguageInSubdir = false
   publication_types = [
     'Uncategorized',  # 0
     'Journals',  # 1
-    'Oral Presentations',  # 2
-    'Posters', #3
-    'Pre-Prints'  # 4
+    'Pre-Prints'  # 2
   ]
 
   # Social/Academic Networking
@@ -161,7 +159,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "CV"
-  url = "#../../static/img/cv.pdf"
+  url = "#../../static/img/CV_base.pdf"
   weight = 2
 
 
@@ -177,7 +175,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "Projects"
-  url = "#projects"
+  url = "#project"
   weight = 5
 
 # [[menu.main]]

@@ -28,4 +28,6 @@ math = false
 
 +++
 
-This page is a work in progress!
+Almost all anthelmintics (drugs used to treat helminth infections in humans and animals) target ion channels (see this [WormBook article](http://www.wormbook.org/chapters/www_anthelminticdrugs/anthelminticdrugs.html) for more information on anthelmintics and their targets). Ion channels are often fast acting signal transduction channels that operate at the neuromuscular junction and are often activated by neurotransmitters such as acetylcholine, serotonin, dopamine, among others. 
+
+One motiviating hypothesis that we have is that the next-generation of anthelmintics will target GPCRs instead of ion channels. Currently, only two drugs, [praziquantel](https://www.cell.com/trends/parasitology/pdf/S1471-4922(18)30009-6.pdf) and [emodepside](https://link.springer.com/article/10.1007%2Fs00436-005-1438-z), *may* target G protein-coupled receptors (GPCRs), but they likely aren't their only targets. Unfortunately, there hasn't been a novel anthelmintic developed in decades, and we think a focus should be given to new receptor targets like GPCRs. GPCRs are classically believed to be more slow acting than ion channels and function in sensitive neuromodulation, but that isn't necessarily true for helminths. Neuropeptides can cause direct muscular contraction through a GPCR, and so can neurotransmitters [Day and Ribeiro citations].

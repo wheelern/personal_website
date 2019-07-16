@@ -21,4 +21,4 @@ image = "headers/CHAWM2018.png"
 
 +++
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR8ier14rq7frxayGcPTpvjIHy1VCOafXMS0tSafPVS2cfup185DAJ8w4nY6Y86rf3E0IecWat-jRq4/embed?start=false&loop=false&delayms=3000" frameborder="0" width="1365" height="1053" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR8ier14rq7frxayGcPTpvjIHy1VCOafXMS0tSafPVS2cfup185DAJ8w4nY6Y86rf3E0IecWat-jRq4/embed?start=false&loop=false&delayms=3000" frameborder="0" width="640" height="389" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
